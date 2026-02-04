@@ -15,5 +15,10 @@
         android:name="com.example.chatcat.HelpFragment"
         android:label="Help"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/sentItemsFragment"
+        android:name="com.example.chatcat.SentItemsFragment"
+        android:label="@string/sent_item"
+        tools:layout="@layout/fragment_sent_items"/>
 
 </navigation>
